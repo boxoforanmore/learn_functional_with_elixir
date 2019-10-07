@@ -1,3 +1,5 @@
+### Using case
+
 user_input = IO.gets("Write your ability score:\n")
 
 result = case Integer.parse(user_input) do
