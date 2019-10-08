@@ -1,11 +1,8 @@
 # ElixirBookTasks
 
-**TODO: Add description**
+Some exercises from various chapters of "Learning Functional Programming with Elixir" , arranged with various degrees of organization
 
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `elixir_book_tasks` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -15,7 +12,11 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/elixir_book_tasks](https://hexdocs.pm/elixir_book_tasks).
 
+Bring in individual files with `iex` tool and compile:
+```bash
+iex
+```
+```elixir
+c("file_to_compile.ex")
+```
